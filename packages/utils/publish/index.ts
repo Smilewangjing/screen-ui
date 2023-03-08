@@ -1,7 +1,6 @@
-import run from '../utils/run';
-import { pkgPath } from '../utils/paths';
+import run from '../../components/script/utils/run';
 import { series } from 'gulp';
 export const publishComponent = async () => {
-    run('release-it', `${pkgPath}/screen-lib`);
+  run('release-it', `.`);
 };
 export default series(async () => publishComponent());

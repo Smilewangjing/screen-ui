@@ -20,7 +20,7 @@ export default defineConfig({
                     preserveModules: true,
                     exports: 'named',
                     //配置打包根目录
-                    dir: '../screen-ui/es'
+                    dir: '../screen-lib/es'
                 },
                 {
                     //打包格式
@@ -31,7 +31,7 @@ export default defineConfig({
                     preserveModules: true,
                     exports: 'named',
                     //配置打包根目录
-                    dir: '../screen-ui/lib'
+                    dir: '../screen-lib/lib'
                 }
             ]
         },
@@ -44,7 +44,7 @@ export default defineConfig({
         vue(),
         dts({
             entryRoot: 'src',
-            outputDir: ['../screen-ui/es/src', '../screen-ui/lib/src'],
+            outputDir: ['../screen-lib/es/src', '../screen-lib/lib/src'],
             //指定使用的tsconfig.json为我们整个项目根目录下,如果不配置,你也可以在components下新建tsconfig.json
             tsConfigFilePath: '../../tsconfig.json'
         }),
