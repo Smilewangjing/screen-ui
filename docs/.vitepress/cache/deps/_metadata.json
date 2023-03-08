@@ -1,0 +1,29 @@
+{
+  "hash": "e1541cee",
+  "browserHash": "8120cc8c",
+  "optimized": {
+    "vue": {
+      "src": "../../../../node_modules/.pnpm/vue@3.2.47/node_modules/vue/dist/vue.runtime.esm-bundler.js",
+      "file": "vue.js",
+      "fileHash": "bc6168ac",
+      "needsInterop": false
+    },
+    "@screen-ui/utils/withInstall": {
+      "src": "../../../../node_modules/.pnpm/@screen-ui+utils@1.0.3/node_modules/@screen-ui/utils/withInstall/index.mjs",
+      "file": "@screen-ui_utils_withInstall.js",
+      "fileHash": "5b7d3b9d",
+      "needsInterop": false
+    },
+    "@vicons/ionicons5": {
+      "src": "../../../../node_modules/.pnpm/@vicons+ionicons5@0.12.0/node_modules/@vicons/ionicons5/es/index.js",
+      "file": "@vicons_ionicons5.js",
+      "fileHash": "acd446c4",
+      "needsInterop": false
+    }
+  },
+  "chunks": {
+    "chunk-N5TED7FU": {
+      "file": "chunk-N5TED7FU.js"
+    }
+  }
+}

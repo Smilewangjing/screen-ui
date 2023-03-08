@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../../../../node_modules/.pnpm/@screen-ui+utils@1.0.3/node_modules/@screen-ui/utils/withInstall/index.mjs"],
+  "sourcesContent": ["const t = (n) => (n.install = (e) => {\n  e.component(n.name, n);\n}, n);\nexport {\n  t as default\n};\n"],
+  "mappings": ";AAAA,IAAM,IAAI,CAAC,OAAO,EAAE,UAAU,CAAC,MAAM;AACnC,IAAE,UAAU,EAAE,MAAM,CAAC;AACvB,GAAG;",
+  "names": []
+}
